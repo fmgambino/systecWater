@@ -6,12 +6,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <html lang="es">
 <head>
-    <link rel="icon" type="image/png" href="https://yakubox.tk/image/favicon.png">
+    <link rel="icon" type="image/png" href="https://systecwater.midemo.tech/images/sysTecLogoWhite.png">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>YAKU - SISTEMA HIGROSCÓPICO 2023</title>
+    <title>SYSTEC WATER - 2023</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">

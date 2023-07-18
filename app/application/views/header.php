@@ -4,7 +4,7 @@
     </div>
     <div class=" form-inline">
         <div class="d-none d-sm-none d-md-block">
-        <a href="https://yakubox.tk/app/main"><img src="<?php echo base_url('images/yaku.png') ?>" class="logo2"></a>
+        <a href="https://systecwater.midemo.tech/app/main"><img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo2"></a>
         </div>
         <div class="ml-5" >
             <!--  -->
@@ -40,16 +40,16 @@
 
             <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect mdl-shadow--2dp settings-dropdown"
                 for="more">
-                <a class="mdl-menu__item" href="https://yakubox.tk/app/devices">
+                <a class="mdl-menu__item" href="https://systecwater.midemo.tech/app/devices">
                     Configuración
                 </a>
-                <a class="mdl-menu__item" href="https://yakubox.tk/soporte/">
+                <a class="mdl-menu__item" href="https://systecwater.midemo.tech/soporte/">
                     Soporte
                 </a>
-                <a class="mdl-menu__item" href="https://yakubox.tk/faq">
+                <a class="mdl-menu__item" href="https://systecwater.midemo.tech/faq">
                     F.A.Q.
                 </a>
-                <a href="https://yakubox.tk">
+                <a href="https://systecwater.midemo.tech">
                     <li class="mdl-menu__item mdl-list__item">
                         <span class="mdl-list__item-primary-content">
                             <i class="material-icons mdl-list__item-icon text-color--secondary">exit_to_app</i>

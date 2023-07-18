@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/png" href="https://systecwater.midemo.tech/app/images/faviconSysTecWaterDark.png">
+    <link rel="icon" type="image/png" href="https://systecwater.midemo.tech/app/image/faviconSysTecWaterDark.png">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Sistema de Control y Monitoreo IoT p/Tanques H2O.">

@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <html lang="es">
 <head>
-    <link rel="icon" type="image/png" href="https://systecwater.midemo.tech/images/sysTecLogoWhite.png">
+    <link rel="icon" type="image/png" href="https://systecwater.midemo.tech/images/faviconSysTecWaterDark.png">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Sistema de Control y Monitoreo IoT p/Tanques H2O.">

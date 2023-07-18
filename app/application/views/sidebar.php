@@ -1,6 +1,6 @@
 <div class="mdl-layout__drawer">
   <header class="hc-sidebar form-inline ">
-    <img src="<?php echo base_url('images/yaku.png')?>" class="logo">    
+    <img src="<?php echo base_url('images/sysTecLogoWhite.png')?>" class="logo">    
   </header>
   <div class="scroll__wrapper" id="scroll__wrapper">
     <div class="scroller" id="scroller">
@@ -23,9 +23,9 @@
 
           <div class="mdl-layout-spacer"></div>
           <hr>
-          <a class="mdl-navigation__link hc-text-white hc-grow" href="https://yakubox.tk">
+          <a class="mdl-navigation__link hc-text-white hc-grow" href="https://systecwater.midemo.tech">
             <i class="material-icons hc-text-white" role="presentation">link</i>
-            yakubox.tk
+            systecwater.midemo.tech
           </a>
         </nav>
       </div>

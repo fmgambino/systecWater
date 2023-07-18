@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" type="image/png" href="https://yakubox.tk/image/favicon.png">
+    <link rel="icon" type="image/png" href="https://systecwater.midemo.tech/image/favicon.png">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
@@ -54,8 +54,8 @@
               <source src="<?php echo base_url('images/videos/cascadaYakuIntro.mp4') ?>" type="video/mp4"/>
             </video>            
             <div class="col-12">
-                <a href="https://yakubox.tk">
-                    <img src="<?php echo base_url('images/yaku.png') ?>" class="logo1" />
+                <a href="https://systecwater.midemo.tech">
+                    <img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo1" />
                 </a>
             </div>
             <div class=" col-12 aling-center">

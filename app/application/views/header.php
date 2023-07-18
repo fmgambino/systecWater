@@ -4,7 +4,7 @@
     </div>
     <div class=" form-inline">
         <div class="d-none d-sm-none d-md-block">
-        <a href="https://systecwater.midemo.tech/app/main"><img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo2"></a>
+        <a href="https://systecwater.midemo.tech/app/main"><img src="<?php echo base_url('app/images/sysTecLogoWhite.png') ?>" class="logo2"></a>
         </div>
         <div class="ml-5" >
             <!--  -->

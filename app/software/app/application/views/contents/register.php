@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-  <link rel="icon" type="image/png" href="<?php echo base_url('image/faviconSysTecWaterDark.png') ?>">
+  <link rel="icon" type="image/png" href="<?php echo base_url('app/image/faviconSysTecWaterDark.png') ?>">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">

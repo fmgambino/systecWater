@@ -55,17 +55,17 @@ class Devices extends CI_Controller {
 			$_SESSION['msg_type'] = "warning";
 			$_SESSION['msg_title'] = "Advertencia!";
 			$_SESSION['msg_body'] = "Serial number alreade exist!";
-			$_SESSION['msg_footer'] = "https://yakubox.tk";
+			$_SESSION['msg_footer'] = "https://systecwater.midemo.tech";
 		}elseif ($result == "success"){
 			$_SESSION['msg_type'] = "success";
 			$_SESSION['msg_title'] = "Felicidades!";
 			$_SESSION['msg_body'] = "El Dispositivo se añadió Satisfactoriamente";
-			$_SESSION['msg_footer'] = "https://yakubox.tk";
+			$_SESSION['msg_footer'] = "https://systecwater.midemo.tech";
 		}elseif($result == "fail"){
 			$_SESSION['msg_type'] = "fail";
 			$_SESSION['msg_title'] = "Error!";
 			$_SESSION['msg_body'] = "Error al añadir Dispositivo";
-			$_SESSION['msg_footer'] = "https://yakubox.tk";
+			$_SESSION['msg_footer'] = "https://systecwater.midemo.tech";
 		}
 		redirect(base_url('devices'), 'refresh');
 	}

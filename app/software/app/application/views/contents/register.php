@@ -45,13 +45,13 @@
 
   <div class="">
   <div class="mt-5">
-          <div class="text-center tamaño">Proyecto Final de Carreras 2023</div>
-          <div class="text-center tamaño mt-1">Augusto Arrueta</div>
-          <div class="text-center tamaño mt-1">UTN - FRT</div>
+          <div class="text-center tamaño">2023 © Copyright - SYSTEC WATER</div>
+          <!-- <div class="text-center tamaño mt-1">Augusto Arrueta</div>
+          <div class="text-center tamaño mt-1">UTN - FRT</div> -->
         </div>
     <main class="">
       <div class="col-12">
-        <a href="https://yakubox.tk">
+        <a href="https://systecwater.midemo.tech">
           <img src="<?php echo base_url('images/liandev1.png') ?>" class="logo1" />
         </a>
       </div>

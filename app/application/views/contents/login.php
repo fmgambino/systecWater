@@ -92,9 +92,9 @@
                     </div>
                 </div>
                 <div class="mt-5">
-                    <div class="text-center tamaño">Proyecto Final de Carreras 2023</div>
+                    <div class="text-center tamaño">2023 © Copyright - SYSTEC WATER</div>
 
-                    <div class="text-center tamaño mt-1">UTN - FRT</div>
+                    <!-- <div class="text-center tamaño mt-1">UTN - FRT</div> -->
                 </div>
                 <div class="" style="color:red">
                     <?php echo $msg ?>

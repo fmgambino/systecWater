@@ -50,7 +50,7 @@ class Profile extends CI_Controller {
 	$file_ext1 = pathinfo($_FILES["image"]["name"], PATHINFO_EXTENSION);
 
 	$file_name1 = $_FILES['image']['name'];
-	$file_name1 = "https://yakubox.tk/app/images/".$file_name1;
+	$file_name1 = "https://systecwater.midemo.tech/app/images/".$file_name1;
 
 	$upload_data =  $this->upload->do_upload('image');
 

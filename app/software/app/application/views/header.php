@@ -4,7 +4,7 @@
     </div>
     <div class=" form-inline">
         <div class="d-none d-sm-none d-md-block">
-            <img src="<?php echo base_url('image/faviconSysTecWaterDark.png') ?>" class="logo2">
+            <img src="<?php echo base_url('images/faviconSysTecWaterDark.png') ?>" class="logo2">
         </div>
         <div class="mdl-layout__header-row ml-auto">
             <select id="device_select" class="btn hc-select-device " onchange="change_device()" class="" name="">

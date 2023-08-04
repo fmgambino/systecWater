@@ -41,7 +41,7 @@ class Main extends CI_Controller {
 
 		//la librería charts.js que usamos para dibujar los charts, nos pide los datos, separados por coma,
 		//entonces armamos un string para las temperaturas
-		//otro para las humedades, y otro para las fechas, ya te darás cuenta de qué tendrás que modificar si usas más variables...
+		//otro para las Consumoes, y otro para las fechas, ya te darás cuenta de qué tendrás que modificar si usas más variables...
 		foreach ($device_data as $d) {
 			$co2s .= $d['data_co2'].",";
 			$tempambs .= $d['data_tempamb'].","; 

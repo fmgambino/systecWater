@@ -18,6 +18,10 @@
                 <input name="device_serial_number" class="mdl-textfield__input hc-text-center" type="text" id="last-name">
                 <label class="hc-color-text-blanco mb-4" for="last-name">Número de Serie</label>
               </div>
+              <div class="">
+                <input name="direccion_gps" class="mdl-textfield__input hc-text-center " type="text" id="first-name">
+                <label class="hc-color-text-blanco mb-4" for="first-name">Dirección GPS</label>
+              </div>
               <button class="btn btn-primary boton" data-upgraded=",MaterialButton,MaterialRipple">Añadir </button>
             </div>
           </div>

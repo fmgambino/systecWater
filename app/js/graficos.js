@@ -4,9 +4,9 @@ var baselink ;
 var delay = 2000 ;
 //variables 
 var temperatura = 0;
-var viento = 0;
+var Caudal = 0;
 var volumen = 0;
-var humedad = 0;
+var Consumo = 0;
 var ph = 0 ;
 var NivelBateria = 0 ;
 
@@ -16,27 +16,27 @@ function pintarGauges(){
 
   //aqui conectar los valores que vienene desde MQTT
   temperatura = 20.5;
-  viento = 60.34;
+  Caudal = 37.6;
   volumen = 40.3;
-  humedad = 70.4;
+  Consumo = 20.4;
   ph = 7.3 ;
   NivelBateria = 30 ;
   //---------------------------------------------------
   cargaBateria(NivelBateria , 'black' , 70 , 25);
 
   document.getElementById('valorTemperatura').innerHTML = temperatura ;
-  document.getElementById('valorViento').innerHTML = viento ;
+  document.getElementById('valorCaudal').innerHTML = Caudal ;
   document.getElementById('valorVolumen').innerHTML = volumen ;
-  document.getElementById('valorHumedad').innerHTML = humedad ;
+  document.getElementById('valorConsumo').innerHTML = Consumo ;
   document.getElementById('valorPh').innerHTML = ph ;
 
   gaugemedio( 'gaugeTemperatura' , temperatura , 0 , 100 , '#EA7577' , true );   
-  gaugemedio( 'gaugeViento' , viento , 0 , 200 , '#C9E265' , true );
+  gaugemedio( 'gaugeCaudal' , Caudal , 0 , 200 , '#C9E265' , true );
   gaugeCompleto('gaugeVolumen' , volumen , 0 , 50 , '#5DB7FE' , false  , 'Lts');
-  gaugeCompleto('gaugeHumedad' , humedad , 0 , 100 , '#F7DC5B' , false  , '%');
+  gaugeCompleto('gaugeConsumo' , Consumo , 0 , 100 , '#F7DC5B' , false  , '%');
   gaugeCompleto('gaugePh' , ph , 0 , 15 , '#5DB7FE' , false  , '');
   graficoLinea('grafico1', 'Temperatura' , '#EA7577' , '°C' );
-  graficoLinea('grafico2', 'Nivel Humedad' , '#F7DC5B', '%' );
+  graficoLinea('grafico2', 'Nivel Consumo' , '#F7DC5B', '%' );
 }
 
 function gaugemedio( contenedor , valor , valorMin , valorMax , color , puntero){

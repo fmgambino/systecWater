@@ -8,7 +8,7 @@
                 <div class=" form-inline">
                     <div class="col-6" style="padding-left: 0px; padding-right: 7px;">
                         <div class="mdl-card--expand color-azul-1 text-center pb-3" style="height: 109px;">
-                            <h4 class=" hc-color-text-blanco ">Extractor</h4>
+                            <h4 class=" hc-color-text-blanco ">Estado</h4>
                             <div class=" form-inline d-flex " style="justify-content: center;">
                                 <!-- SWITCH-->
                                 <label class="switch mr-2" style="margin-bottom: 0px;">
@@ -93,16 +93,16 @@
                         <div class="form-inline">
                             <div class="col-4 col-md-6 hc-color-text-blanco ">
                                 <div class="col-12 form-inline text-center" style="justify-content: center;">
-                                    <h4 class=" mb-0 ">Humedad</h4>
+                                    <h4 class=" mb-0 ">Consumo</h4>
                                     <img src="<?php echo base_url('images/iconoWater.svg') ?>" class="icono">
                                 </div>
                                 <div class="col-12 form-inline mt-3" style="justify-content: center;">
-                                    <p id="valorHumedad" class="weather-temperature mr-1">--</p>
+                                    <p id="valorConsumo" class="weather-temperature mr-1">--</p>
                                     <h4 class="hc-unidades">%</h4>
                                 </div>
                             </div>
                             <div class="col-8 col-md-6 " style="width: 100%; height: 130px;">
-                                <div id="gaugeHumedad"></div>
+                                <div id="gaugeConsumo"></div>
                             </div>
                         </div>
                     </div>
@@ -116,23 +116,25 @@
                         <div class="form-inline">
                             <div class=" col-4 col-md-6 hc-color-text-blanco ">
                                 <div class="col-12 form-inline " style="justify-content: center;">
-                                    <h4 class=" mb-0 ">Viento</h4>
-                                    <img src="<?php echo base_url('images/iconoViento.svg') ?>" class="icono">
+                                    <h4 class=" mb-0 ">Caudal</h4>
+                                    <img src="<?php echo base_url('images/iconoCaudal.svg') ?>" class="icono">
                                 </div>
                                 <div class="col-12 form-inline mt-3 " style="justify-content: center;">
-                                    <p id="valorViento" class="weather-temperature mr-1 ">23.11</p>
-                                    <h4 class="hc-unidades">km/h</h4>
+                                    <p id="valorCaudal" class="weather-temperature mr-1 ">23.11</p>
+                                    <h4 class="hc-unidades">l/h</h4>
                                 </div>
                             </div>
 
                             <div class="col-8 col-md-6 " style="width: 100%; height: 80px;">
-                                <div id="gaugeViento"></div>
+                                <div id="gaugeCaudal"></div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class=" ">
+
+                <!--PH H2O -->
+
+<!--                 <div class=" ">
                     <div class=" mdl-card--expand color-azul-1 ">
                         <div class="form-inline">
                             <div class="col-4 col-md-6 hc-color-text-blanco ">
@@ -150,7 +152,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
+
             </div>
 
 

@@ -53,7 +53,7 @@
                                 </div>
                                 <div class="col-12 form-inline mt-3" style="justify-content: center;">
                                     <p id="valorVolumen" class="weather-temperature mr-1">--</p>
-                                    <h4 class="hc-unidades">Lts</h4>
+                                    <h4 class="hc-unidades">m3</h4>
                                 </div>
                             </div>
                             <div class="col-8 col-md-6" style="width: 80%; height: 130px;">
@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="col-12 form-inline mt-3" style="justify-content: center;">
                                     <p id="valorConsumo" class="weather-temperature mr-1">--</p>
-                                    <h4 class="hc-unidades">%</h4>
+                                    <h4 class="hc-unidades">m3</h4>
                                 </div>
                             </div>
                             <div class="col-8 col-md-6 " style="width: 100%; height: 130px;">

@@ -32,11 +32,11 @@ function pintarGauges(){
 
   gaugemedio( 'gaugeTemperatura' , temperatura , 0 , 100 , '#EA7577' , true );   
   gaugemedio( 'gaugeCaudal' , Caudal , 0 , 200 , '#C9E265' , true );
-  gaugeCompleto('gaugeVolumen' , volumen , 0 , 50 , '#5DB7FE' , false  , 'Lts');
-  gaugeCompleto('gaugeConsumo' , Consumo , 0 , 100 , '#F7DC5B' , false  , '%');
+  gaugeCompleto('gaugeVolumen' , volumen , 0 , 50 , '#5DB7FE' , false  , 'cm3');
+  gaugeCompleto('gaugeConsumo' , Consumo , 0 , 100 , '#F7DC5B' , false  , 'Lts');
   gaugeCompleto('gaugePh' , ph , 0 , 15 , '#5DB7FE' , false  , '');
   graficoLinea('grafico1', 'Temperatura' , '#EA7577' , '°C' );
-  graficoLinea('grafico2', 'Nivel Consumo' , '#F7DC5B', '%' );
+  graficoLinea('grafico2', 'Nivel Consumo' , '#F7DC5B', 'L' );
 }
 
 function gaugemedio( contenedor , valor , valorMin , valorMax , color , puntero){

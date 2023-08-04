@@ -117,7 +117,7 @@
                             <div class=" col-4 col-md-6 hc-color-text-blanco ">
                                 <div class="col-12 form-inline " style="justify-content: center;">
                                     <h4 class=" mb-0 ">Caudal</h4>
-                                    <img src="<?php echo base_url('images/iconoCaudal.svg') ?>" class="icono">
+                                    <img src="<?php echo base_url('images/iconoViento.svg') ?>" class="icono">
                                 </div>
                                 <div class="col-12 form-inline mt-3 " style="justify-content: center;">
                                     <p id="valorCaudal" class="weather-temperature mr-1 ">23.11</p>

@@ -4,7 +4,7 @@ var baselink ;
 var delay = 2000 ;
 //variables 
 var temperatura = 0;
-var Caudal = 0;
+var Caudal = 10;
 var volumen = 0;
 var Consumo = 0;
 var ph = 0 ;

@@ -79,9 +79,9 @@ $db['default'] = array(
 	'hostname' => 'localhost',
 	//--------- config db online
 
-	'username' => 'u133581750_arrueta', 
-	'password' => 'yakuBox0381',
-	'database' => 'u133581750_yakuDB',
+	'username' => 'u197809344_fmg342', 
+	'password' => 'Jamboree0381',
+	'database' => 'u197809344_systec',
 	 
 	//--------- config db local
 	/*

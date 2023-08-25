@@ -22,7 +22,7 @@
                 <input name="direccion_gps" class="mdl-textfield__input hc-text-center " type="text" id="first-name">
                 <label class="hc-color-text-blanco mb-4" for="first-name">Dirección GPS</label>
               </div>
-              <button class="btn btn-primary boton" data-upgraded=",MaterialButton,MaterialRipple">Añadir </button>
+              <button class="btn btn-primary boton" data-upgraded=",MaterialButton,MaterialRipple">AGREGAR </button>
             </div>
           </div>
         </form>
@@ -33,16 +33,16 @@
   <div class="col-12 col-md-6 ">
     <div class="hc-box-devices">
       <div class="mdl-card__title mt-5">
-        <h4 class="mdl-card__title-text">Dispositivos</h4>
+        <h4 class="mdl-card__title-text">Dispositivos Activos</h4>
       </div>
       <div class="mdl-card__supporting-text scrool">
         <table class="mdl-data-table scrollmenu ">
           <thead>
             <tr>
               <th class="  text-center">Alias</th>
-              <th class="  text-center">Date</th>
-              <th class="  text-center">SN</th>
-              <th class="  text-center">Delete</th>
+              <th class="  text-center">Fecha | Hora</th>
+              <th class="  text-center">Número Serial</th>
+              <th class="  text-center"></th>
 
             </tr>
           </thead>

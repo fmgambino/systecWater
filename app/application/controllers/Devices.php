@@ -45,10 +45,12 @@ class Devices extends CI_Controller {
 
 	// cuando agregamos un dispositivo nuevo
 	public function add(){
+
 		$user_id = $this->session->userdata('user_id');
 		$device_alias = strip_tags($this->input->post('device_alias'));
 		$device_serial_number = strip_tags($this->input->post('device_serial_number'));
-		$result = $this->Devices_model->add($user_id, $device_alias, $device_serial_number);
+		$device_direccion = strip_tags($this->input->post('direccion_gps'));
+		$result = $this->Devices_model->add($user_id, $device_alias, $device_serial_number, $device_direccion);
 
 		//estas variables de sesión las cargamos cuando necesitamos pasar una alerta a sweet alert
 		if ($result == "exist"){

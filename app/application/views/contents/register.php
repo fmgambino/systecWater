@@ -47,7 +47,7 @@
 
     <div class="">
         
-        <main class="">
+        <main class="" style="height: 100vh;">
             <div class="col-12">
                 <a href="https://systecwater.midemo.tech">
                     <img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo1" />
@@ -89,9 +89,9 @@
                                 <div class="col-4 ">
                                     <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked required>
                                 </div>
-                                <div class="col-8 pl-0">
+                                <div class="col-6 pl-0">
                                     <a href="#" class=" terminos">
-                                        <p style="color: white">Estoy de acuerdo con todas las declaraciones en los terminos y condiciones
+                                        <p>Estoy de acuerdo con todas las declaraciones en los terminos y condiciones
                                             del servicio</p>
                                     </a>
                                 </div>

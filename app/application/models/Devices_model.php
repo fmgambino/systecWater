@@ -55,14 +55,14 @@ class Devices_model extends CI_Model
   }
 
   //agregar nuevo dispositivo
-  public function add($user_id,$device_alias,$device_serial_number)
+  public function add($user_id,$device_alias,$device_serial_number, $device_direccion)
   {
-
     //comprobamos que no exista un dispositivo con el mismo numero de serie
     $this->db->select('device_sn');
     $this->db->from('devices');
     $this->db->where('device_sn', $device_serial_number);
     $this->db->where('device_user_id', $user_id);
+    $this->db->where('device_direccion', $device_direccion);
 
     $query = $this->db->get();
 
@@ -76,6 +76,7 @@ class Devices_model extends CI_Model
       'device_user_id' => $user_id,
       'device_alias' => $device_alias,
       'device_sn' => $device_serial_number,
+      'device_direccion' => $device_direccion,
       'device_topic' => $this->generateRandomString(10)
     );
 

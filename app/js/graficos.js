@@ -10,6 +10,7 @@ var Consumo = 0;
 var ph = 0 ;
 var NivelBateria = 0 ;
 
+
 var gauges = setInterval( pintarGauges() , delay);
 
 function pintarGauges(){  
@@ -21,6 +22,8 @@ function pintarGauges(){
   Consumo = 20.4;
   ph = 7.3 ;
   NivelBateria = 30 ;
+
+
   //---------------------------------------------------
   cargaBateria(NivelBateria , 'black' , 70 , 25);
 
@@ -28,15 +31,20 @@ function pintarGauges(){
   document.getElementById('valorCaudal').innerHTML = Caudal ;
   document.getElementById('valorVolumen').innerHTML = volumen ;
   document.getElementById('valorConsumo').innerHTML = Consumo ;
-  document.getElementById('valorPh').innerHTML = ph ;
+
+
+  // document.getElementById('valorPh').innerHTML = ph ;
 
   gaugemedio( 'gaugeTemperatura' , temperatura , 0 , 100 , '#EA7577' , true );   
   gaugemedio( 'gaugeCaudal' , Caudal , 0 , 200 , '#C9E265' , true );
   gaugeCompleto('gaugeVolumen' , volumen , 0 , 50 , '#5DB7FE' , false  , 'cm3');
   gaugeCompleto('gaugeConsumo' , Consumo , 0 , 100 , '#F7DC5B' , false  , 'Lts');
-  gaugeCompleto('gaugePh' , ph , 0 , 15 , '#5DB7FE' , false  , '');
+  // gaugeCompleto('gaugePh' , ph , 0 , 15 , '#5DB7FE' , false  , '');
   graficoLinea('grafico1', 'Temperatura' , '#EA7577' , '°C' );
   graficoLinea('grafico2', 'Nivel Consumo' , '#F7DC5B', 'L' );
+
+
+
 }
 
 function gaugemedio( contenedor , valor , valorMin , valorMax , color , puntero){
@@ -319,6 +327,9 @@ function cargaBateria(valor , colorTexto , rango1 , rango2 ){
   }
   
 }
+
+
+
 
 
 

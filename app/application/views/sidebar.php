@@ -23,7 +23,7 @@
 
           <div class="mdl-layout-spacer"></div>
           <hr>
-          <a class="mdl-navigation__link hc-text-white hc-grow" href="https://systecwater.midemo.tech">
+          <a class="mdl-navigation__link hc-text-white hc-grow" href="/">
             <i class="material-icons hc-text-white" role="presentation">link</i>
             systecwater.midemo.tech
           </a>

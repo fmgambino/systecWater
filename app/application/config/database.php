@@ -76,7 +76,7 @@ $db['default']['options'] = array(PDO::ATTR_TIMEOUT => 5000);
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'db',
 	//--------- config db online
 
 	'username' => 'u197809344_fmg342', 

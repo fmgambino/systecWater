@@ -1,0 +1,4 @@
+docker-compose.yml
+/app/application/config/
+/mysql/
+.dockerignore

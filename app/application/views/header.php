@@ -4,7 +4,7 @@
     </div>
     <div class=" form-inline">
         <div class="d-none d-sm-none d-md-block">
-        <a href="https://systecwater.midemo.tech/app/main"><img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo2"></a>
+        <a href="/app/main"><img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo2"></a>
         </div>
         <div class="ml-5" >
             <!--  -->
@@ -17,7 +17,7 @@
             <!--  -->
         </div>
         <div class="mdl-layout__header-row ml-auto">
-            <select id="device_select" class="btn hc-select-device text-center" onchange="change_device()" class=""
+            <select id="device_select" class="btn hc-select-device text-center select--device" onchange="change_device()" class=""
                 name="">
                 <option value="">Selecione Dispositivo</option>
                 <?php foreach ($devices as $device) { ?>
@@ -40,16 +40,16 @@
 
             <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect mdl-shadow--2dp settings-dropdown"
                 for="more">
-                <a class="mdl-menu__item" href="https://systecwater.midemo.tech/app/devices">
+                <a class="mdl-menu__item" href="/app/devices">
                     Configuración
                 </a>
-                <a class="mdl-menu__item" href="https://systecwater.midemo.tech/soporte/">
+                <a class="mdl-menu__item" href="/soporte/">
                     Soporte
                 </a>
-                <a class="mdl-menu__item" href="https://systecwater.midemo.tech/faq">
+                <a class="mdl-menu__item" href="/faq">
                     F.A.Q.
                 </a>
-                <a href="https://systecwater.midemo.tech">
+                <a href="/">
                     <li class="mdl-menu__item mdl-list__item">
                         <span class="mdl-list__item-primary-content">
                             <i class="material-icons mdl-list__item-icon text-color--secondary">exit_to_app</i>

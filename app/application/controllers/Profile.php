@@ -39,7 +39,7 @@ class Profile extends CI_Controller {
 	//print_r($retiro_local);
 	//echo "</pre>";
 	//die();
-	$config['upload_path']          = '../app/images/';
+	$config['upload_path'] 			= 'images/';
 	$config['allowed_types']        = 'jpg|png|jpeg';
 	$config['max_size']             = 3000000;
 	$config['max_width']            = 5000;
@@ -47,12 +47,22 @@ class Profile extends CI_Controller {
 
 	$this->load->library('upload', $config);
 
+
+
 	$file_ext1 = pathinfo($_FILES["image"]["name"], PATHINFO_EXTENSION);
 
 	$file_name1 = $_FILES['image']['name'];
-	$file_name1 = "https://liandev.tk/app/images/".$file_name1;
+	$file_name1 = base_url("images/").$file_name1;
 
-	$upload_data =  $this->upload->do_upload('image');
+	$this->upload->do_upload('image');
+
+	if (!$this->upload->do_upload('image')) {
+		echo $this->upload->display_errors();
+		exit;
+	}
+	
+
+
 
 	$this->session->set_userdata(array(
 			'user_name' => $username,

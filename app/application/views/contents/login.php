@@ -51,14 +51,52 @@
 
         <main class=" video">
             <video autoplay muted loop id="video_background" preload="auto" volume="0">
-              <source src="<?php echo base_url('images/videos/cascadaYakuIntro.mp4') ?>" type="video/mp4"/>
+              <source src="<?php echo base_url('images/videos/video-tanque.mp4') ?>" type="video/mp4"/>
             </video>            
-            <div class="col-12">
-                <a href="https://systecwater.midemo.tech">
+            <div class="col-12 d-none">
+                <a href="/">
                     <img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo1" />
                 </a>
             </div>
-            <div class=" col-12 aling-center">
+            <div class="filter--video">
+
+            </div>
+
+            <div class="login">
+                <div class="login__container container">
+                    <div class="login__container--logo">
+                        <a href="/">
+                            <img src="<?php echo base_url('images/sysTecLogoWhite.png') ?>" class="logo1" />
+                        </a>
+                    </div>
+                    <div class="login__container--form">
+                        <form action="<?php echo base_url('login/dologin') ?>" method="post">
+                            <span>
+                                Inicie sesión con su cuenta IoT
+                            </span>
+                            <label for="e-mail">
+                                <input class="input--login" placeholder="Email" type="text"
+                                        name="email" value="demo@demo.com" id="e-mail">
+                            </label>
+                            <label for="password">
+                                <input class=" input--login" placeholder="Contraseña" type="password"
+                                        id="password" name="password" value="demo0381">
+                            </label>
+                            <a href="<?php echo base_url('register') ?>" class="">No eres Cliente?</a>
+                            <button type="submit" class="btn-submit">
+                                        INGRESAR
+                            </button>
+                        </form>
+                    </div>
+                    <div class="login__container--copy">
+                        <div class="copy--content">2023 © Copyright - SYSTEC WATER</div>
+                    </div>
+                    <div class="" style="color:red">
+                        <?php echo $msg ?>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-12 d-none">
                 <div class=" hc-box-login border p-4">
                     <div class="  ">
                         <form class="" action="<?php echo base_url('login/dologin') ?>" method="post">
@@ -67,12 +105,12 @@
                             </div>
                             <div class="col-12  mt-4">
                                 <div class="mb-3">
-                                    <input class=" hc-form-control inputs" placeholder="Correo Electrónico" type="text"
+                                    <input class="input--login" placeholder="Correo Electrónico" type="text"
                                         name="email" value="demo@demo.com" id="e-mail">
                                     <label class="" for="e-mail"></label>
                                 </div>
                                 <div class="">
-                                    <input class=" hc-form-control inputs" placeholder="Contraseña" type="password"
+                                    <input class="input--login" placeholder="Contraseña" type="password"
                                         id="password" name="password" value="demo0381">
                                     <label class="" for="password"></label>
                                 </div>

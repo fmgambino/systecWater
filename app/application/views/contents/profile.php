@@ -11,7 +11,7 @@
                         <h5 class="mdl-card__title-text text-color--white">INFORMACIÓN DEL PERFIL</h5>
                     </div>
                     <div class="mdl-card__supporting-text">
-                        <form enctype="multipart/form-data" class="" action="https://systecwater.midemo.tech/app/profile/change" method="post">
+                        <form enctype="multipart/form-data" class="" action="/app/profile/change" method="post">
                             <div class="mdl-grid">
                                 <div class="mdl-textfield  full-size">
                                     <input class="mdl-textfield__input hc-color-text-gris hc-text-center " type="text" name="user_name" value="<?php echo $_SESSION['user_name']; ?>">

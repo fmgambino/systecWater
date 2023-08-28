@@ -72,12 +72,12 @@
                         <div class="form-inline">
                             <div class=" col-4 col-md-6 hc-color-text-blanco ">
                                 <div class="col-12 form-inline text-center flex-wrap flex-md-nowrap ">
-                                    <h4 class=" mb-0 ">Temperatura</h4>
-                                    <img src="<?php echo base_url('images/iconoTemp.svg') ?>" class="icono">
+                                    <h4 class=" mb-0 ">Monto $/m3</h4>
+                                    <img src="<?php echo base_url('images/iconDolar.svg') ?>" class="icono">
                                 </div>
                                 <div class="col-12 form-inline mt-3">
                                     <h2 id="valorTemperatura" class="weather-temperature mr-1">--</h2>
-                                    <h2 class="hc-unidades">°C</h2>
+                                    <h2 class="hc-unidades">$</h2>
                                 </div>
                             </div>
                             <div class="col-8 col-md-6 " style="width: 100%; height: 80px;">
